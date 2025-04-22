@@ -1,0 +1,50 @@
+# WordPress core files
+/*
+!.gitignore
+!README.md
+
+# Include wp-content directory
+!/wp-content
+
+# But exclude everything in wp-content
+/wp-content/*
+
+# Include themes directory
+!/wp-content/themes/
+
+# Include plugins directory
+!/wp-content/plugins/
+
+# Exclude common files and directories
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.log
+.htaccess
+*.bak
+*.swp
+
+# Exclude WordPress configuration file
+wp-config.php
+
+# Exclude uploads directory
+/wp-content/uploads/
+
+# Exclude cache directories
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backup-db/
+/wp-content/backups/
+/wp-content/blogs.dir/
+/wp-content/advanced-cache.php
+/wp-content/wp-cache-config.php
+
+# Exclude plugin and theme specific files that shouldn't be in version control
+/wp-content/themes/*/node_modules/
+/wp-content/themes/*/vendor/
+/wp-content/plugins/*/node_modules/
+/wp-content/plugins/*/vendor/ 
