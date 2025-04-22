@@ -15,6 +15,12 @@
 # Include plugins directory
 !/wp-content/plugins/
 
+# Include specific plugins
+!/wp-content/plugins/revslider/
+!/wp-content/plugins/vc_clipboard/
+!/wp-content/plugins/vcparticlesbackground/
+!/wp-content/plugins/LayerSlider/
+
 # Exclude common files and directories
 .DS_Store
 .DS_Store?
